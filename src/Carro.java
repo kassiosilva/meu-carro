@@ -8,4 +8,10 @@ public class Carro {
         this.modelo = modelo;
         this.ano = ano;
     }
+
+    public void exibirCarroInfo() {
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Ano: " + ano);
+    }
 }
