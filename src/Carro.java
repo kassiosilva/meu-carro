@@ -14,4 +14,15 @@ public class Carro {
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
     }
+    public void rodar(int quilometragem) {
+        if (quilometragem < 0) {
+            return;
+        }
+
+        this.quilometragem += quilometragem;
+    }
+
+    public int getQuilometragem() {
+        return quilometragem;
+    }
 }

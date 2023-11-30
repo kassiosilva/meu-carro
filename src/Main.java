@@ -3,5 +3,15 @@ public class Main {
         System.out.println("--- Criando novo Carro ---");
         Carro meuCarro = new Carro("Toyota", "Corolla", 2023);
         meuCarro.exibirCarroInfo();
+
+        meuCarro.rodar(100);
+        meuCarro.rodar(-100);
+        meuCarro.rodar(50);
+        meuCarro.rodar(73);
+        meuCarro.rodar(122);
+        meuCarro.rodar(-3);
+
+        System.out.println("Quilometragem: " + meuCarro.getQuilometragem());
+
     }
 }
