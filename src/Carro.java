@@ -2,6 +2,7 @@ public class Carro {
     private final String marca;
     private final String modelo;
     private final int ano;
+    private int quilometragem;
 
     public Carro(String marca, String modelo, int ano) {
         this.marca = marca;
@@ -40,6 +41,6 @@ public class Carro {
 
     public void ligar() {
         System.out.println("Ligando carro ...");
-        exibirCarroInfo()
+        exibirCarroInfo();
     }
 }
