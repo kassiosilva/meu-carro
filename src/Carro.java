@@ -25,4 +25,21 @@ public class Carro {
     public int getQuilometragem() {
         return quilometragem;
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void ligar() {
+        System.out.println("Ligando carro ...");
+        exibirCarroInfo()
+    }
 }
